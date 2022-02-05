@@ -32,13 +32,15 @@ import CardContent from "@mui/material/CardContent";
 import Container from "@mui/material/Container";
 
 import SimpleAvatar from "./components/Avatars.jsx"
-
+import SimpleNavbar from "./components/Navbar.jsx";
 
 
 
 function App() {
 	return (
-
+		<div>
+			<SimpleNavbar></SimpleNavbar>
+		
 		<Container>
 			<SimpleAvatar></SimpleAvatar>
 			<Grid container spacing={2}>
@@ -51,7 +53,7 @@ function App() {
 		
 		</Container>
 		
-
+		</div>
 
 
 

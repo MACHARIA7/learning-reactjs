@@ -1,8 +1,8 @@
 import { React } from "react";
 
-// Themeing - Default CSS
-// import 'rsuite/dist/rsuite.min.css';
-import 'rsuite/styles/index.less';
+
+import 'rsuite/dist/rsuite.min.css';
+
 
 
 import { Navbar, Nav, Dropdown } from "rsuite";
